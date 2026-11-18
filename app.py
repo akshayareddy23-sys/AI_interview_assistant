@@ -2,4 +2,4 @@ import streamlit as st
 from gorq import Gorq
 st.set_page_config(page_title='LLM',layout='centered')
 st.title('AI Interview Assistant')
-st.caption('deploying the appp')
+st.caption('preparation for placements')
