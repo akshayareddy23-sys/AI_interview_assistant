@@ -38,7 +38,7 @@ role =st.selectbox("Job Title", ["Machine Learning Engineer", "Senior Software E
 
 if role =="Others":
     st.text_input("Enter your Job Title","XXXXXX")
-model = st.selectbox(
+gen_model = st.selectbox(
     "choose your model",
 [
 "openai/gpt-oss-120b"
