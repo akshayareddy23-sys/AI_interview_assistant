@@ -88,5 +88,5 @@ if st.button("Generate AI Response",type = "primary"):
     max_tokens = 1800 )
         except Exception as e:
             st.error ("API connection was Unsuccessfull:", e)
-        task = "Question:" = question + "Answer: " + answer + "Improve the answer based on the result and highligth the important points."
+st.write("Success")
         
